@@ -1,0 +1,17 @@
+﻿@model Art
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<form method="post">
+    <div class="card mb-3">
+        <img class="card-img-top" width="100%" height="50%" src="@Model.Imageurl" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-subtitle">@Model.Artist</p>
+            <p class="card-text">@Model.Description</p>
+            <p class="card-text">@Model.category.Name</p>
+            <a asp-action="MainPage" class="btn btn-primary">Back to home</a>
+        </div>
+</form>
+
+ 
+

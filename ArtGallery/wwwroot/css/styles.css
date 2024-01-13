@@ -1,0 +1,102 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Lines&display=swap');
+
+body {
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Rubik Lines', system-ui;
+}
+
+.Card {
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
+}
+
+.Card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.Card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4746;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+
+.Card:hover .Card-body {
+    right: 0;
+}
+
+.Card-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.Card-sub-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Card-info {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+.Card-btn {
+    color: #1f3d47;
+    background: #8fabba;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+}
+
+.con {
+    text-align: center;
+    height: 400px;
+ 
+}
+
+.link1 {
+    text-decoration: none;
+    font-size:16px;
+    position:absolute;
+    bottom:100px;
+    right:480px;
+}
+.link1 a{
+    text-decoration:none;
+}
+a{
+    text-decoration:none;
+}
+#sp{
+    color:purple;
+}

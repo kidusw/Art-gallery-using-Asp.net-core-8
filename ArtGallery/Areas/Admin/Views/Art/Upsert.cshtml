@@ -1,0 +1,72 @@
+﻿@model ArtVM
+
+<form method="post" enctype="multipart/form-data">
+	<input hidden asp-for="Art.Id" />
+	<input hidden asp-for="Art.Imageurl" />
+	<div class="row">
+		<div class="col-10">
+			<div class="border p-3 mt-4">
+				<div class="row pb-2">
+					<h2 class="text-primary">@(Model.Art.Id != 0 ? "Update" : "Create") Art</h2>
+					<hr />
+				</div>
+				<div class="mb-3">
+					<label asp-for="Art.Title"></label>
+					<input asp-for="Art.Title" class="form-control" />
+					<span asp-validation-for="Art.Title" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Art.Artist"></label>
+					<input asp-for="Art.Artist" class="form-control" />
+					<span asp-validation-for="Art.Artist" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Art.Description"></label>
+					<textarea asp-for="Art.Description" class="form-control"></textarea>
+					<span asp-validation-for="Art.Description" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Art.category"></label>
+					<select asp-for="Art.category" asp-items="@Model.CategoryList" class="form-select ">
+						<option disabled selected>--Select Category--</option>
+					</select>
+					<span asp-validation-for="Art.CategoryId" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Art.Imageurl"></label>
+					<input type="file" name="file" class="form-control" />
+				</div>
+				<div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3">
+						@if (Model.Art.Id != 0)
+						{
+							<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+						}
+						else
+						{
+							<button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+						}
+
+					</div>
+					<div class="col-6 col-md-3">
+						<a asp-controller="Art" asp-action="Index" class="btn btn-outline-secondary border form-control" style="width:150px">Back To List</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-2">
+			<img src="@Model.Art.Imageurl" class="mt-4" width="100%"
+				style="border-radius:5px; border:1px solid #bbb9b9"
+			/>
+		</div>
+	</div>
+	
+</form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}

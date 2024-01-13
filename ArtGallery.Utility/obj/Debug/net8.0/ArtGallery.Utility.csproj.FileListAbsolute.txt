@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\bin\Debug\net8.0\ArtGallery.Utility.deps.json
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\bin\Debug\net8.0\ArtGallery.Utility.dll
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\bin\Debug\net8.0\ArtGallery.Utility.pdb
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.dll
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\refint\ArtGallery.Utility.dll
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.pdb
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ref\ArtGallery.Utility.dll
+C:\Users\LENOVO\source\repos\Gallery\ArtGallery.Utility\obj\Debug\net8.0\ArtGallery.Utility.csproj.AssemblyReference.cache

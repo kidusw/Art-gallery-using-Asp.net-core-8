@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Art>
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+
+<div class="row pd-3">
+	@foreach (var art in Model)
+	{
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<div class="col-12 p-1">
+				<div class="Card">
+					<img src="@art.Imageurl" class="Card-img" alt="" />
+					<div class="Card-body">
+						<h1 class="Card-title">@art.Title</h1>
+						<p class="Card-sub-title">@art.Artist</p>
+						<button class="Card-btn" type="submit">
+							<a asp-action="Details" asp-route-artid="@art.Id">Details </a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	}
+</div>
