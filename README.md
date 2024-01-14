@@ -12,5 +12,11 @@
 4. then simply run the application and voila...
 
 
+<img width="869" alt="art1" src="https://github.com/kidusw/Art-gallery-using-Asp.net-core-8/assets/99359601/0b89fa7f-434d-42eb-b5c6-65e533ffa7ee">
+<img width="898" alt="art2" src="https://github.com/kidusw/Art-gallery-using-Asp.net-core-8/assets/99359601/a3ef81e6-3738-468e-aaad-20a509d11264">
+
+
+
+
 
 
